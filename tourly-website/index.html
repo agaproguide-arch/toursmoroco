@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tourly Travel Agency</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+
+  <!-- SEO Meta -->
+  <meta name="description" content="Tourly Travel Agency offers unique tours across Morocco, including Agadir, Paradise Valley, and the Sahara desert. Book unforgettable experiences with professional guides.">
+  <meta name="keywords" content="Morocco tours, Agadir tours, Paradise Valley, Sahara desert, travel agency, booking tours">
+  <meta name="author" content="Tourly Travel Agency">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Tourly Travel Agency">
+  <meta property="og:description" content="Discover Morocco with unique tours and unforgettable experiences. Book now!">
+  <meta property="og:image" content="assets/images/hero-bg.jpg">
+  <meta property="og:url" content="https://yourwebsite.com">
+  <meta property="og:type" content="website">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<!-- Header -->
+<header class="header" data-header>
+  <div class="overlay" data-overlay></div>
+  <div class="header-top">
+    <div class="container">
+      <a href="tel:+212638215059" class="helpline-box">
+        <div class="icon-box">📞</div>
+        <span data-en="Call Us: +212 638 215 059" 
+              data-de="Rufen Sie uns an: +212 638 215 059"
+              data-fr="Appelez-nous: +212 638 215 059"
+              data-es="Llámanos: +212 638 215 059"
+              data-ar="اتصل بنا: +212 638 215 059">Call Us: +212 638 215 059</span>
+      </a>
+
+      <!-- Language Switcher -->
+      <select id="language-switcher">
+        <option value="en">EN</option>
+        <option value="de">DE</option>
+        <option value="fr">FR</option>
+        <option value="es">ES</option>
+        <option value="ar">AR</option>
+      </select>
+
+      <!-- Dark Mode Switch -->
+      <label class="dark-mode-switch">
+        <input type="checkbox" id="dark-mode-toggle">
+        Dark Mode
+      </label>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar container">
+    <a href="#" class="logo">Tourly</a>
+    <ul class="nav-links">
+      <li><a href="#tours" data-en="Tours" data-de="Touren" data-fr="Excursions" data-es="Tours" data-ar="الجولات">Tours</a></li>
+      <li><a href="#about" data-en="About" data-de="Über uns" data-fr="À propos" data-es="Acerca de" data-ar="معلومات عنا">About</a></li>
+      <li><a href="#blog" data-en="Blog" data-de="Blog" data-fr="Blog" data-es="Blog" data-ar="مدونة">Blog</a></li>
+      <li><a href="#contact" data-en="Contact" data-de="Kontakt" data-fr="Contact" data-es="Contacto" data-ar="اتصل بنا">Contact</a></li>
+    </ul>
+    <button class="menu-toggle">☰</button>
+  </nav>
+
+  <!-- Hero -->
+  <div class="hero container">
+    <h1 data-en="Explore Morocco with Us" data-de="Entdecken Sie Marokko mit uns" data-fr="Découvrez le Maroc avec nous" data-es="Explora Marruecos con nosotros" data-ar="اكتشف المغرب معنا">Explore Morocco with Us</h1>
+    <p data-en="Unique tours, unforgettable experiences." data-de="Einzigartige Touren, unvergessliche Erlebnisse." data-fr="Des excursions uniques, des expériences inoubliables." data-es="Tours únicos, experiencias inolvidables." data-ar="جولات فريدة وتجارب لا تُنسى">Unique tours, unforgettable experiences.</p>
+    <a href="#tours" class="btn" data-en="Book Now" data-de="Jetzt buchen" data-fr="Réserver maintenant" data-es="Reservar ahora" data-ar="احجز الآن">Book Now</a>
+  </div>
+</header>
+
+<!-- Main Sections -->
+<main>
+  <!-- Tours Section -->
+  <section id="tours" class="section">
+    <div class="container">
+      <h2 data-en="Our Tours" data-de="Unsere Touren" data-fr="Nos excursions" data-es="Nuestros Tours" data-ar="جولاتنا">Our Tours</h2>
+      <div class="tours-grid">
+        <div class="tour-card">
+          <img src="assets/images/tour1.jpg" alt="Agadir City Tour">
+          <h3 data-en="Agadir City Tour" data-de="Agadir Stadttour" data-fr="Visite de la ville d'Agadir" data-es="Tour por la ciudad de Agadir" data-ar="جولة مدينة أكادير">Agadir City Tour</h3>
+          <p data-en="Discover Agadir's beaches and landmarks." data-de="Entdecken Sie Agadirs Strände und Sehenswürdigkeiten." data-fr="Découvrez les plages et sites d'Agadir." data-es="Descubre las playas y lugares de interés de Agadir." data-ar="اكتشف شواطئ ومعالم أكادير.">Discover Agadir's beaches and landmarks.</p>
+          <a href="https://www.getyourguide.com" target="_blank" class="btn" data-en="Book Now" data-de="Jetzt buchen" data-fr="Réserver maintenant" data-es="Reservar ahora" data-ar="احجز الآن">Book Now</a>
+          <div class="map">
+            <iframe src="https://www.google.com/maps?q=Agadir&output=embed" loading="lazy"></iframe>
+          </div>
+        </div>
+
+        <div class="tour-card">
+          <img src="assets/images/tour2.jpg" alt="Paradise Valley Adventure">
+          <h3 data-en="Paradise Valley Adventure" data-de="Paradies Tal Abenteuer" data-fr="Aventure Vallée du Paradis" data-es="Aventura Valle del Paraíso" data-ar="مغامرة وادي الجنة">Paradise Valley Adventure</h3>
+          <p data-en="Hiking and nature in a beautiful valley." data-de="Wandern und Natur in einem schönen Tal." data-fr="Randonnée et nature dans une belle vallée." data-es="Senderismo y naturaleza en un valle hermoso." data-ar="المشي في الطبيعة بوادي جميل.">Hiking and nature in a beautiful valley.</p>
+          <a href="https://www.getyourguide.com" target="_blank" class="btn" data-en="Book Now" data-de="Jetzt buchen" data-fr="Réserver maintenant" data-es="Reservar ahora" data-ar="احجز الآن">Book Now</a>
+          <div class="map">
+            <iframe src="https://www.google.com/maps?q=Paradise+Valley, Morocco&output=embed" loading="lazy"></iframe>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 data-en="About Us" data-de="Über uns" data-fr="À propos" data-es="Acerca de" data-ar="معلومات عنا">About Us</h2>
+      <p data-en="We offer unique tours and experiences across Morocco with professional guides and safe transport." 
+         data-de="Wir bieten einzigartige Touren und Erlebnisse in Marokko mit professionellen Guides und sicherem Transport." 
+         data-fr="Nous proposons des excursions uniques à travers le Maroc avec des guides professionnels et un transport sûr." 
+         data-es="Ofrecemos tours únicos y experiencias en Marruecos con guías profesionales y transporte seguro." 
+         data-ar="نقدم جولات فريدة وتجارب في المغرب مع مرشدين محترفين ونقل آمن.">
+         We offer unique tours and experiences across Morocco with professional guides and safe transport.
+      </p>
+    </div>
+  </section>
+
+</main>
+
+<!-- Footer -->
+<footer>
+  <div class="container">
+    <p>&copy; 2026 Tourly Travel Agency. All rights reserved.</p>
+  </div>
+</footer>
+
+<!-- JS -->
+<script src="assets/js/script.js"></script>
+<script src="assets/js/language.js"></script>
+<script src="assets/js/darkmode.js"></script>
+<script src="assets/js/animations.js"></script>
+</body>
+</html>
